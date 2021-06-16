@@ -1,0 +1,398 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 2% 8%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 2.5rem;
+}
+
+.navbar-brand {
+  font-family: "Gentium Book Basic", serif;
+  font-size: 2.5rem;
+  letter-spacing: 0.15rem;
+  font-weight: 600;
+}
+
+.nav-item {
+  padding: 0 4px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  font-family: "Montserrat-Light";
+  color: #fff;
+}
+
+/* Title Section */
+
+#hero {
+  background-color: #03203c;
+  color: #fff;
+  text-align: left;
+}
+#hero nav {
+  text-align: center;
+}
+
+#hero .container-fluid {
+  padding: 3% 10% 2%;
+}
+
+/* Landing Page */
+
+span {
+  font-size: 20px;
+  margin-left: 20px;
+}
+.landing-content {
+  color: white;
+}
+
+.landing-img {
+  width: 80%;
+  margin: 4%;
+}
+
+/* Values Section*/
+#values {
+  height: 300px;
+}
+.values-content {
+  text-align: center;
+  width: 57rem;
+  margin: 0 auto;
+}
+
+.val-heading {
+  color: black;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 3rem;
+  font-family: "Gentium Book Basic", serif;
+  margin-bottom: 5%;
+}
+/* Services Section */
+
+#services {
+  position: relative;
+  background-color: #03203c;
+}
+
+.section-heading {
+  color: white;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 3rem;
+  font-family: "Gentium Book Basic", serif;
+}
+
+.service-title {
+  font-size: 1.5rem;
+}
+
+.service-box {
+  padding: 2%;
+}
+
+.service-box p,
+h3 {
+  color: white;
+}
+
+.icon {
+  /* color: #ef8172; */
+  color: white;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* logo carousal */
+
+/* #custom-logos {
+  height: 200px;
+} */
+
+.customer-logos {
+  margin: 4% 5%;
+}
+
+.slick-slide {
+  margin: 0px 10px;
+}
+.slick-slide img {
+  width: 100%;
+}
+/* Methods Section*/
+
+#methods {
+  position: relative;
+  background-color: #03203c;
+}
+
+/* Testimonial Section */
+
+/* #testimonials {
+  background-color: #ef8172;
+} */
+
+/* .test-heading {
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 3rem;
+  font-family: "Gentium Book Basic", serif;
+  color: black;
+}
+.testimonial-text {
+  color: black;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.testimonial-image {
+  width: 13%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#testimonials a {
+  color: #000000;
+}
+.carousel-item em {
+  color: black;
+  font-size: 1.2rem;
+} */
+
+/* Contact Form Styling Starts */
+
+section#contact {
+  background-color: #fff;
+  /* background-image: url("../img/map-image.png");
+  background-position: center;
+  background-repeat: no-repeat; */
+  padding-bottom: 3%;
+}
+section#contact .section-heading {
+  color: #03203c;
+}
+section#contact .form-group {
+  margin-bottom: 25px;
+}
+section#contact .form-group input,
+section#contact .form-group textarea {
+  padding: 20px;
+}
+section#contact .form-group input.form-control {
+  height: auto;
+}
+section#contact .form-group textarea.form-control {
+  height: 236px;
+}
+section#contact .form-control {
+  border-color: #03203c;
+}
+section#contact .form-control:focus {
+  border-color: #fed136;
+  box-shadow: none;
+}
+section#contact ::-webkit-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #070606;
+}
+section#contact :-moz-placeholder {
+  /* Firefox 18- */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#contact ::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#contact :-ms-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#contact .text-danger {
+  color: #e74c3c;
+}
+#contact button {
+  background-color: #03203c;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+/* Footer Section */
+#Sitemap {
+  background-color: #cad5e2;
+}
+#Sitemap h1,
+h5 {
+  color: #03203c;
+  font-family: "Gentium Book Basic", serif;
+  font-style: italic;
+  font-size: 25px;
+  letter-spacing: 0.1rem;
+}
+
+#Sitemap a {
+  color: #03203c;
+}
+
+#Sitemap input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #03203c;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+#Sitemap input[type="submit"] {
+  background-color: #fff;
+  color: #03203c;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+::marker {
+  color: #03203c;
+}
+#Sitemap input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+.social-icon {
+  font-size: 30px;
+  color: #03203c;
+  margin: 20px 10px;
+  cursor: pointer;
+}
+.copy-right {
+  color: #03203c;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 2rem;
+  }
+  .navbar-toggler-icon {
+    font-size: 2rem;
+  }
+  .nav-link {
+    color: #fff;
+  }
+  .landing-about h1 {
+    font-size: 1.7rem;
+  }
+  .landing-about span {
+    font-size: 1.7rem;
+    letter-spacing: 0.1rem;
+    margin-left: -0.5%;
+  }
+  .landing-content {
+    width: 100%;
+  }
+  .landing-img {
+    width: 95%;
+  }
+
+  .service-title {
+    font-size: 1.5rem;
+  }
+
+  .service-box {
+    padding: 4.5%;
+  }
+  .service-box p {
+    font-size: 1rem;
+  }
+
+  .icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+
+  .val-heading {
+    font-size: 2rem;
+  }
+  .values-content {
+    text-align: center;
+    width: 90%;
+    font-size: 0.7rem;
+    margin: 0 auto;
+  }
+  .values-content h4 {
+    font-size: 1.2rem;
+  }
+
+  .section-heading {
+    font-size: 2.3rem;
+  }
+}
